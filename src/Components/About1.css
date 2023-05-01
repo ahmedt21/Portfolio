@@ -1,0 +1,46 @@
+.container1 {
+    background-image: linear-gradient(to right, #f12711, #f5af19);
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  .picture {
+    width: 50%;
+    margin-left: 50px;
+  }
+  
+  .picture img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about {
+    width: 50%;
+  }
+  
+  .about h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+    text-align: justify;
+  }
+  
+  .about p:last-child {
+    margin-bottom: 0;
+  }
